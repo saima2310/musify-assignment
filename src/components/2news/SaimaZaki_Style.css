@@ -1,10 +1,11 @@
 .parent_container {
   display: grid;
-  width: 100%;
+  /* width: 32px; */
   justify-content: center;
   margin: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 500;
+  margin: auto;
 }
 
 .parent_container > p {
@@ -16,17 +17,19 @@
 .container {
   display: flex;
   gap: 20px;
+  width: fit-content;
 }
 
 .icon {
-  width: 210px;
-  height: 80px;
+  width: 150px;
+  height: 70px;
   border: 1px solid black;
   border-radius: 35px;
   text-align: center;
   padding-top: 20px;
   justify-content: center;
   color: gray;
+  font-size: 13px;
 }
 
 
@@ -36,5 +39,5 @@
 }
 
 .icon_size {
-  font-size: 40px;
+  font-size: 30px;
 }

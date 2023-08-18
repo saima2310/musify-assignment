@@ -16,7 +16,7 @@
 
 .my_container {
   display: grid;
-  width: 30%;
+  width: 40%;
   /* height: 530px; */
   height: fit-content;
   background-color: rgb(53, 47, 47);
@@ -43,7 +43,7 @@
 .para {
   color: rgb(214, 210, 210);
   text-align: right;
-  margin-right: 56px;
+  margin-right: 75px;
   font-size: small;
 }
 
@@ -100,8 +100,8 @@ input {
   width: 100%;
   height: 30px;
   border-radius: 25px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-indent: 7px;
   font-size: small;
 }
@@ -115,13 +115,22 @@ input::placeholder {
   display: flex;
   width: 100px;
   margin-top: 20px;
-  gap: 10px;
+  gap: 14px;
 }
 
 .button {
-  padding: 8px 68px;
+  padding: 10px 72px;
   font-size: small !important;
 }
 .black {
-  padding: 8px 68px;
+  /* padding: 10px 72px;
+  border-radius: 15px !important; */
+  /* color: blue; */
+}
+
+#button_div{
+  /* padding: 10px 72px; */
+  background-color: black;
+  border-radius: 200px;
+  /* width: 200px; */
 }
