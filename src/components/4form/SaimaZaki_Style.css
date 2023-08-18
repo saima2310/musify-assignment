@@ -1,0 +1,127 @@
+.bg_image {
+  margin-left: 80px;
+  margin-top: 30px;
+  padding-bottom: 60px;
+  width: 93%;
+  /* height: 600px;
+   */
+  height: fit-content;
+  text-align: center;
+  background-image: url("https://c.pxhere.com/photos/2b/94/musical_instrument_string_instrument_guitar_vast_instrument_acoustic_guitar_strings_takamine-812361.jpg!d");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.my_container {
+  display: grid;
+  width: 30%;
+  /* height: 530px; */
+  height: fit-content;
+  background-color: rgb(53, 47, 47);
+  margin: auto;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.line {
+  display: flex;
+  gap: 15px;
+  margin-left: 56px;
+  margin-right: 40px;
+}
+
+.thin_line {
+  margin-top: 60px;
+  border-radius: 15px;
+  width: 80px;
+  height: 3px;
+  background-color: rgb(214, 210, 210);
+}
+
+.para {
+  color: rgb(214, 210, 210);
+  text-align: right;
+  margin-right: 56px;
+  font-size: small;
+}
+
+h1 {
+  color: rgb(214, 210, 210);
+}
+
+.my_icon {
+  position: relative;
+  background-color: rgb(214, 210, 210);
+  width: 40px;
+  margin: auto;
+  /* font-size: 100px; */
+  padding: 20px;
+  border-radius: 50%;
+  color: black;
+  font-size: xx-large;
+}
+
+.absolute {
+  position: absolute;
+  padding: 3px;
+  height: 15px;
+  width: 15px;
+  font-size: 15px;
+  right: 2px;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: orangered;
+  border-radius: 50%;
+}
+
+.form_div {
+  text-align: left !important;
+
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  height: fit-content;
+  /* border: 2px solid wheat; */
+}
+
+form {
+  width: 100%;
+}
+label {
+  color: beige;
+  font-size: 12px;
+  margin-right: 100px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-indent: 7px;
+  font-size: small;
+}
+
+input::placeholder {
+  color: grey !important;
+  border: none;
+}
+
+.button_div {
+  display: flex;
+  width: 100px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.button {
+  padding: 8px 68px;
+  font-size: small !important;
+}
+.black {
+  padding: 8px 68px;
+}

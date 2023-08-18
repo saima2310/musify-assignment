@@ -1,0 +1,19 @@
+button {
+   
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* .button{
+    padding: 50px;
+} */
+.black {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.image{
+    width: 370px;
+    border: 1px solid black;
+    border-radius: 23px;
+    padding: 7px;
+}
+
+img{
+    width: 100%;
+}

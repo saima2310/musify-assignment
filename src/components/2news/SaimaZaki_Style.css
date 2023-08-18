@@ -1,0 +1,40 @@
+.parent_container {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  margin: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.parent_container > p {
+  font-size: xx-large;
+  font-weight: 300;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  width: 210px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 35px;
+  text-align: center;
+  padding-top: 20px;
+  justify-content: center;
+  color: gray;
+}
+
+
+.color {
+  font-weight: bolder;
+  color: black;
+}
+
+.icon_size {
+  font-size: 40px;
+}
