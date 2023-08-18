@@ -67,7 +67,7 @@
   font-size: 17px;
   font-weight: 100;
 }
-#child_text{
+#child_text {
   margin-right: 37px;
 }
 
@@ -89,27 +89,26 @@
   color: white;
 }
 
-
-
 .empty {
   height: 6px;
   /* width: 94%; */
   background-color: gray;
 }
 
-.view_button{
+.view_button {
   text-align: center;
   /* font-size: 90px; */
   /* width: 200px; */
-  margin: auto;
+  /* margin: auto; */
   border-radius: 25px;
   /* padding: 10px 30px; */
   /* background-color: orangered; */
-cursor: pointer;
+  margin-bottom: 30px;
+  cursor: pointer;
 }
-.button{
+.button {
   /* color: blueviolet; */
-  padding:14px 85px;
+  padding: 14px 85px;
   border-radius: 26px;
   font-weight: bolder;
 }
